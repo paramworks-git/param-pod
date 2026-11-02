@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+Thumbs.db
+build/
+firmware/build/
+firmware/deps/
