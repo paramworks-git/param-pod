@@ -13,10 +13,10 @@
 
 **PARAM POD** is a portable, high-fidelity digital-to-analog converter (DAC) and headphone amplifier designed to snap magnetically (MagSafe) directly to the back of your smartphone.
 
-Most high-end portable audio dongles and DAC bricks create two major problems: they drain your smartphone's battery in a few hours, or they require awkwardly rubber-banding a heavy, separate power brick to your device.
+Most high-end portable audio dongles and DAC bricks create two major problems: they drain your smartphone's battery in a few hours, or they require awkwardly rubber-banding a heavy, separate power brick to your device. Additionally, a separate power source helps provide a cleaner audio signature by preventing electrical noise from phone USB-C power delivery.
 
 PARAM POD solves both:
-1. **Zero Phone Drain:** Its onboard ~2,500 mAh LiPo pack powers the power-hungry DAC and analog output stages independently, keeping your phone's battery intact.
+1. **Zero Phone Drain & Cleaner Audio Signature:** Its onboard ~2,500 mAh LiPo pack powers the power-hungry DAC and analog output stages independently—keeping your phone's battery intact while shielding sensitive audio circuitry from noisy phone USB-C power rails.
 2. **Emergency Reverse Charging:** Featuring a bidirectional USB Power Delivery (USB-PD) controller, it can reverse-charge your phone at up to ~1A when you are in a pinch.
 3. **Bit-Perfect Lossless Playback:** Uncompromised UAC2 audio transmission from bit-perfect apps (Roon ARC, Tidal, Qobuz) directly over a short, low-profile right-angle USB-C bridge.
 
