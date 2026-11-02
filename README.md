@@ -1,7 +1,7 @@
 # PARAM POD (POD-1)
 
 **MagSafe Audiophile DAC & Headphone Amplifier**  
-*Part of the PARAMWORKS Instrument Suite (System 04-R: "The Sovereign Wavefront")*  
+*Part of the PARAMWORKS Open Hardware Collection*  
 *Operating Entity: Nirvaan LLC*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -13,7 +13,7 @@
 
 **PARAM POD** is a portable, high-fidelity digital-to-analog converter (DAC) and headphone amplifier designed to snap magnetically (MagSafe) directly to the back of your smartphone.
 
-Most high-end portable audio dongles and DAC bricks create two major problems: they drain your smartphone's battery in under two hours, or they require awkwardly rubber-banding a heavy, separate power brick to your device.
+Most high-end portable audio dongles and DAC bricks create two major problems: they drain your smartphone's battery in a few hours, or they require awkwardly rubber-banding a heavy, separate power brick to your device.
 
 PARAM POD solves both:
 1. **Zero Phone Drain:** Its onboard ~2,500 mAh LiPo pack powers the power-hungry DAC and analog output stages independently, keeping your phone's battery intact.
@@ -26,6 +26,20 @@ PARAM POD solves both:
         │                                        └────── MCLK (DAC Master)
         └── USB-PD Power Path (Bidirectional) ── TPS25750D ⇄ BQ25792 ⇄ 1S LiPo Cell (~2500 mAh)
 ```
+
+---
+
+## Visual Design & Hardware Renders
+
+### Final Product (MagSafe Snapped to Smartphone)
+![PARAM POD Assembled View](renders/pod_assembled.png)
+
+### Exploded Enclosure & Hardware Stack
+![PARAM POD Exploded Enclosure](renders/pod_exploded.png)
+
+### Audiophile PCB (Matte Black Solder Mask · ENIG Gold Finish)
+*Raytraced 3D render of the Rev 1 PCB featuring the AK4493SEQ Velvet Sound™ DAC, NXP i.MX RT1011 USB core, TI BQ25792 charger, and TI TPS25750D USB-PD controller.*
+![PARAM POD Black PCB with ENIG Finish](renders/param_pod_black_enig.png)
 
 ---
 
@@ -53,6 +67,10 @@ PARAM POD solves both:
 │   ├── pod_lid.stl             # Snapping top lid
 │   ├── cap_tree_nubs_0_15.stl  # Tactile button caps (0.15mm tolerance)
 │   └── cap_tree_nubs_30_45.stl # Tactile button caps (0.30mm tolerance)
+├── renders/                    # 3D product and black ENIG PCB renders
+│   ├── pod_assembled.png       # Final MagSafe assembled product view
+│   ├── pod_exploded.png        # Exploded enclosure stack
+│   └── param_pod_black_enig.png# Raytraced black solder mask + ENIG PCB
 ├── schematics/                 # Reference schematics in PDF format
 │   └── param-pod-schematic.pdf
 ├── firmware/                   # Open-source UAC2 firmware for NXP i.MX RT1011
