@@ -1,8 +1,7 @@
 # PARAM POD (POD-1)
 
 **MagSafe Audiophile DAC & Headphone Amplifier**  
-*Part of the PARAMWORKS Open Hardware Collection*  
-*Operating Entity: Nirvaan LLC*
+*Part of the PARAMWORKS Open Hardware Collection*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Hardware Status](https://img.shields.io/badge/Hardware-Rev%201%20in%20Fab-orange.svg)](https://paramworks.com)
@@ -113,7 +112,7 @@ Flashing is handled via SWD during factory testing, or over USB via the NXP ROM 
 
 ## Philosophy & Licensing
 
-Built with zero telemetry, zero cloud dependency, and local-first architecture under **Nirvaan LLC**.
+Built with zero telemetry, zero cloud dependency, and local-first architecture by **PARAMWORKS**.
 
 * **Software & Firmware:** Licensed under the [MIT License](LICENSE).
 * **Reference Schematics & 3D Models:** Open hardware reference design under MIT.
